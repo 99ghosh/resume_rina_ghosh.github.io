@@ -1,0 +1,85 @@
+{
+    "addontype": "",
+    "cattitle": "Basic",
+    "name": "paragraph",
+    "alias": "",
+    "title": "Paragraph",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "basic-paragraph",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "true"
+        },
+        "params": [
+            {
+                "type": "uc_textarea",
+                "title": "Paragraph",
+                "name": "paragraph",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum in orci sit amet rutrum. Nunc blandit rhoncus consequat. Donec sodales enim et felis commodo, eget posuere turpis fringilla.",
+                "font_editable": "true"
+            },
+            {
+                "type": "uc_dropdown",
+                "title": "Text Align",
+                "name": "align",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Center": "center",
+                    "Left": "left",
+                    "Right": "right",
+                    "Justify": "justify"
+                },
+                "default_value": "center"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Padding Top",
+                "name": "top",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "0",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Padding Bottom",
+                "name": "bottom",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "0",
+                "font_editable": "false"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html"
+    ]
+}

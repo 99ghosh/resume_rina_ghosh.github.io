@@ -1,0 +1,51 @@
+{
+    "addontype": "",
+    "cattitle": "Basic",
+    "name": "google_maps",
+    "alias": "",
+    "title": "Google Maps",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "blox_google_maps",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "true"
+        },
+        "params": [
+            {
+                "type": "uc_map",
+                "title": "Google Maps",
+                "name": "google_maps",
+                "description": "",
+                "admin_label": "false"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html"
+    ]
+}

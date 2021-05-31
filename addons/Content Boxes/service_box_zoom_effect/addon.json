@@ -1,0 +1,91 @@
+{
+    "addontype": "",
+    "cattitle": "Content Boxes",
+    "name": "service_box_zoom_effect",
+    "alias": "",
+    "title": "Service Box Zoom Effect",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "service_box_zoom_effect",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "false"
+        },
+        "params": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "admin_label": "true",
+                "default_value": "Default Title",
+                "font_editable": "true"
+            },
+            {
+                "type": "uc_textarea",
+                "title": "Description",
+                "name": "description",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "Vestibulum ante mauris, laoreet non tempus quis, vehicula nec massa.Cras consequat cursus sem ac ultrices.",
+                "font_editable": "true"
+            },
+            {
+                "type": "uc_icon",
+                "title": "Icon",
+                "name": "icon",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "fa fa-file-text-o"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Color",
+                "name": "color",
+                "description": "",
+                "default_value": "#0094e0"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": [
+                {
+                    "url": "https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.6.1\/css\/font-awesome.min.css",
+                    "condition": ""
+                },
+                {
+                    "url": "https:\/\/fonts.googleapis.com\/css?family=Montserrat:400,700|Open+Sans:400,700",
+                    "condition": ""
+                },
+                {
+                    "url": "service_box_zoom_effect\/service_box_zoom_effect.css",
+                    "condition": ""
+                }
+            ]
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html",
+        "css"
+    ]
+}

@@ -1,0 +1,1 @@
+<a href="{{item.link}}" style="margin-left:{{margin_left}}px;margin-right:{{margin_right}}px;" target="{{item.tab}}" id="{{item.item_id}}"><i class="{{item.icon}}"></i></a>

@@ -1,0 +1,29 @@
+{
+    "config": {
+        "bg": "#eeeeee",
+        "number_color": "#262626",
+        "bar_height": "10"
+    },
+    "items": [
+        {
+            "title": "Photoshop",
+            "value": "80",
+            "color": "#4a05ff"
+        },
+        {
+            "title": "Illustrator",
+            "value": "50",
+            "color": "#ff6005"
+        },
+        {
+            "title": "InDesign",
+            "value": "70",
+            "color": "#00d139"
+        },
+        {
+            "title": "After Effects",
+            "value": "90",
+            "color": "#ff059f"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "config": {
+        "form1_send_button_text": "Send",
+        "form1_sending_text": "Sending...",
+        "form1_success_text": "Thank you for contacting us",
+        "btn_bg": "#dedede",
+        "btn_txt": "Send"
+    },
+    "items": [
+        {
+            "type": "uc_textfield",
+            "title": "Full Name",
+            "name": "full_name",
+            "admin_label": "false",
+            "default_value": ""
+        },
+        {
+            "type": "uc_textfield",
+            "title": "Email",
+            "name": "email",
+            "admin_label": "false",
+            "default_value": ""
+        },
+        {
+            "type": "uc_textarea",
+            "title": "Message",
+            "name": "message",
+            "admin_label": "false",
+            "default_value": ""
+        }
+    ]
+}

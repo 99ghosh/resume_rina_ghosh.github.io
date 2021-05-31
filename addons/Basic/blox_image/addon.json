@@ -1,0 +1,137 @@
+{
+    "addontype": "",
+    "cattitle": "Basic",
+    "name": "blox_image",
+    "alias": "",
+    "title": "Image",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "basic-image",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "true"
+        },
+        "params": [
+            {
+                "type": "uc_image",
+                "title": "Image",
+                "name": "image",
+                "description": "",
+                "admin_label": "false",
+                "add_thumb": "false",
+                "add_thumb_large": "false",
+                "default_value": "[url_assets]\/preview_addon.png"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Image Title",
+                "name": "image_title",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Image Alt",
+                "name": "image_alt",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Image Width",
+                "name": "image_width",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "100%",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_dropdown",
+                "title": "Align",
+                "name": "align",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Center": "center",
+                    "Left": "left",
+                    "Right": "right"
+                },
+                "default_value": "center"
+            },
+            {
+                "type": "uc_number",
+                "title": "Border Radius",
+                "name": "radius",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "0",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_radioboolean",
+                "title": "Add Link",
+                "name": "add_link",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "false",
+                "true_name": "Yes",
+                "true_value": "true",
+                "false_name": "No",
+                "false_value": "false"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Link",
+                "name": "link",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_radioboolean",
+                "title": "Link Open In New Tab",
+                "name": "tab",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "_self",
+                "true_name": "Yes",
+                "true_value": "_blank",
+                "false_name": "No",
+                "false_value": "_self"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html"
+    ]
+}

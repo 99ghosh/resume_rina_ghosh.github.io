@@ -1,0 +1,32 @@
+{
+    "config": [],
+    "items": [
+        {
+            "title": "Twitter",
+            "icon": "fa fa-twitter",
+            "button_color": "#2677fa",
+            "link": "#",
+            "button_hover_color": "#ffffff",
+            "tab_unite_selected_text": "Yes",
+            "tab": "_blank"
+        },
+        {
+            "title": "Google Plus",
+            "icon": "fa fa-google-plus",
+            "button_color": "#fa2651",
+            "link": "#",
+            "button_hover_color": "#ffffff",
+            "tab_unite_selected_text": "Yes",
+            "tab": "_blank"
+        },
+        {
+            "title": "Facebook",
+            "icon": "fa fa-facebook",
+            "button_color": "#2660fa",
+            "link": "#",
+            "button_hover_color": "#ffffff",
+            "tab_unite_selected_text": "Yes",
+            "tab": "_blank"
+        }
+    ]
+}

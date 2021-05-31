@@ -1,0 +1,130 @@
+{
+    "addontype": "",
+    "cattitle": "Social Network Icons",
+    "name": "square_social_network_icons",
+    "alias": "",
+    "title": "Square Social Network Icons",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "true",
+            "path_assets": "social_network_icons",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "false"
+        },
+        "params": [
+            {
+                "type": "uc_dropdown",
+                "title": "Align",
+                "name": "align",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Center": "center",
+                    "Left": "left",
+                    "Right": "right"
+                },
+                "default_value": "center"
+            },
+            {
+                "type": "uc_number",
+                "title": "Margin Left Between Icons",
+                "name": "margin_left",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "5",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_number",
+                "title": "Margin Right Between Icons",
+                "name": "margin_right",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "5",
+                "unit": "",
+                "unit_custom": ""
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            },
+            {
+                "type": "uc_icon",
+                "title": "Icon",
+                "name": "icon",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "fa fa-twitter"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Button Background Color",
+                "name": "button_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#2677fa"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Button Background Hover Color",
+                "name": "button_hover_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#ffffff"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Link",
+                "name": "link",
+                "description": "",
+                "default_value": "#"
+            },
+            {
+                "type": "uc_dropdown",
+                "title": "Open in new tab?",
+                "name": "tab",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Yes": "_blank",
+                    "No": "_self"
+                },
+                "default_value": "_blank"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [
+                "font-awsome"
+            ],
+            "css": [
+                {
+                    "url": "social_network_icons\/uc_square_social_network_icons.css",
+                    "condition": ""
+                }
+            ]
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html",
+        "html_item",
+        "css",
+        "css_item"
+    ]
+}

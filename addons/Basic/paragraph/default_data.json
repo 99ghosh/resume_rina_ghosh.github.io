@@ -1,0 +1,15 @@
+{
+    "config": {
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum in orci sit amet rutrum. Nunc blandit rhoncus consequat. Donec sodales enim et felis commodo, eget posuere turpis fringilla.",
+        "align_unite_selected_text": "Center",
+        "align": "center",
+        "top": "0",
+        "bottom": "0"
+    },
+    "items": "",
+    "fonts": {
+        "paragraph": {
+            "template": "paragraph"
+        }
+    }
+}

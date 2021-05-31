@@ -1,0 +1,176 @@
+{
+    "addontype": "",
+    "cattitle": "Basic",
+    "name": "solid_rounded_button",
+    "alias": "",
+    "title": "Button",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "solid_rounded_button",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "true"
+        },
+        "params": [
+            {
+                "type": "uc_textfield",
+                "title": "Button Text",
+                "name": "btn_txt",
+                "description": "",
+                "admin_label": "true",
+                "default_value": "Button",
+                "font_editable": "true"
+            },
+            {
+                "type": "uc_textfield",
+                "title": "Link",
+                "name": "link",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "http:\/\/www.google.com",
+                "font_editable": "false"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Background Color",
+                "name": "bg",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#e0007d"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Hover Color",
+                "name": "hover",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#ad0061"
+            },
+            {
+                "type": "uc_dropdown",
+                "title": "Open in new window",
+                "name": "target",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Yes": "_blank",
+                    "No": "_self"
+                },
+                "default_value": "_blank"
+            },
+            {
+                "type": "uc_dropdown",
+                "title": "Align",
+                "name": "align",
+                "description": "",
+                "admin_label": "false",
+                "options": {
+                    "Left": "left",
+                    "Right": "right",
+                    "Center": "center"
+                },
+                "default_value": "center"
+            },
+            {
+                "type": "uc_number",
+                "title": "Rounded Corners",
+                "name": "rounded",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "100",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_number",
+                "title": "Padding Top and Bottom",
+                "name": "padding_top_bottom",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "14",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_number",
+                "title": "Padding Left and Right",
+                "name": "padding_left_right",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "36",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Border Color",
+                "name": "border_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#000000"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Border Hover Color",
+                "name": "border_hover_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#000000"
+            },
+            {
+                "type": "uc_number",
+                "title": "Border Width",
+                "name": "border_width",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "0",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Font Color",
+                "name": "font_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#ffffff"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Font Color Hover",
+                "name": "font_color_hover",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#ffffff"
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html",
+        "css"
+    ]
+}

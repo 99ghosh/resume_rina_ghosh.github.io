@@ -1,0 +1,109 @@
+{
+    "addontype": "",
+    "cattitle": "Titles and Headings",
+    "name": "side_border_title",
+    "alias": "",
+    "title": "Side Border Title",
+    "description": "",
+    "config": {
+        "options": {
+            "enable_items": "false",
+            "path_assets": "side_border_title",
+            "description": "",
+            "link_resource": "",
+            "show_small_icon": "true",
+            "preview_size_unite_selected_text": "Full Size",
+            "preview_size": "full",
+            "preview_custom_width": "",
+            "preview_bgcol": "#ffffff",
+            "is_free_addon": "false"
+        },
+        "params": [
+            {
+                "type": "uc_textfield",
+                "title": "Text",
+                "name": "text",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "Default Title",
+                "font_editable": "true"
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Background Color",
+                "name": "bg_color",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#ffffff"
+            },
+            {
+                "type": "uc_number",
+                "title": "Padding Top",
+                "name": "padding_top",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "5",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_number",
+                "title": "Padding Bottom",
+                "name": "padding_bottom",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "5",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_number",
+                "title": "Padding Left and Right",
+                "name": "padding_left_right",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "20",
+                "unit": "",
+                "unit_custom": ""
+            },
+            {
+                "type": "uc_colorpicker",
+                "title": "Border Color",
+                "name": "bg_clr",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "#000000"
+            },
+            {
+                "type": "uc_number",
+                "title": "Border Width",
+                "name": "border_width",
+                "description": "",
+                "admin_label": "false",
+                "default_value": "3",
+                "unit": "",
+                "unit_custom": ""
+            }
+        ],
+        "params_items": [
+            {
+                "type": "uc_textfield",
+                "title": "Title",
+                "name": "title",
+                "description": "",
+                "default_value": "",
+                "limited_edit": "true"
+            }
+        ],
+        "includes": {
+            "js": [],
+            "jslib": [],
+            "css": []
+        },
+        "variables_item": "",
+        "variables_main": ""
+    },
+    "templates": [
+        "html"
+    ]
+}
